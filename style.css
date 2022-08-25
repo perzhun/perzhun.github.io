@@ -114,17 +114,17 @@ body {
     margin: 0;
 }
 .work-ex-record .project-details {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 .work-ex-record .project-details .work-period {
-    position: absolute;
-    top: 0;
-    right: 0;
+    min-width: 120px;
+    text-align: right;
 }
 
 .monospace {
     font-family: 'Roboto Mono', monospace;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 @media print {
